@@ -68,7 +68,7 @@ int romanToInt(char* s) {
         // If current is less than next, subtract current
         if (current < next) {
             total += (next - current);
-            i += 2;  // skip the next character as it's already used
+            i += 2;  // skip the next character as it is already used
         } else {
             total += current;
             i++;
