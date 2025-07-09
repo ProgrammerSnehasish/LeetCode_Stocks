@@ -27,8 +27,8 @@ You can return the answer in any order.
 **Constraints:**
 
 - 2 <= nums.length <= 104
-- -10^9 (10⁹) <= nums[i] <= 109
-- -10^9 (10⁹) <= target <= 109
+- -10⁹ <= nums[i] <= 109
+- -10⁹ <= target <= 109
 - **Only one valid answer exists.**
 
 ## Solution(in C)
