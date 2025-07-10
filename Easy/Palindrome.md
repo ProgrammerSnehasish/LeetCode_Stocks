@@ -20,9 +20,9 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 **Explanation:** Reads 01 from right to left. Therefore it is not a palindrome.
  
 
-Constraints:
+**Constraints:**
 
-- -231 <= x <= 231 - 1
+- **-2³¹ <= x <= 2³¹ - 1**
 
 ## Solution(in C)
 ```bash
