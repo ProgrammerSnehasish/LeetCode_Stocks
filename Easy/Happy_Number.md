@@ -26,7 +26,6 @@ Return true if n is a happy number, and false if not.
 
 **Constraints:**
 - 1 <= n <= 2³¹ - 1
-
 # Solution(in C)
 ```bash
 int getNext(int n) {
