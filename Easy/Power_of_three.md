@@ -25,7 +25,7 @@ An integer n is a power of three, if there exists an integer x such that n == 3x
 - **-2³¹ <= x <= 2³¹ - 1**
 
 # Solution(in C)
-```bash
+```c
 bool isPowerOfThree(int n) {
     if (n < 1) return false;
     while (n % 3 == 0) {

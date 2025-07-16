@@ -55,7 +55,7 @@ Note: 49 is not 1 (I) less of 50 (L) because the conversion is based on decimal 
 - **1 <= num <= 3999**
 
 # Solution(in C)
-```bash
+```c
 char* intToRoman(int num) {
    // Roman numeral mappings
     int values[] =    {1000, 900, 500, 400, 100,  90,  50,  40,  10,   9,   5,   4,   1};

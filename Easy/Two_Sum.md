@@ -32,7 +32,7 @@ You can return the answer in any order.
 - **Only one valid answer exists.**
 
 ## Solution(in C)
-```bash
+```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

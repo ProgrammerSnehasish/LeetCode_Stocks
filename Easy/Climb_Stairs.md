@@ -26,7 +26,7 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 - **1 <= n <= 45**
 
 # Solution(in C)
-```bash
+```c
 int climbStairs(int n) {
     if (n == 1) return 1;
     if (n == 2) return 2;

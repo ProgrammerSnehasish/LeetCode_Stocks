@@ -27,7 +27,7 @@ Return true if n is a happy number, and false if not.
 **Constraints:**
 - 1 <= n <= 2³¹ - 1
 # Solution(in C)
-```bash
+```c
 int getNext(int n) {
     int sum = 0;
     while (n > 0) {

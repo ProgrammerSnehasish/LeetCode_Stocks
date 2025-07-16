@@ -43,7 +43,7 @@ Given a roman numeral, convert it to an integer.
 - It is **guaranteed** that s is a valid roman numeral in the range [1, 3999].
 
 ## Solution(in C)
-```bash
+```c
 int value(char c) {
     switch(c) {
         case 'I': return 1;

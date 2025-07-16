@@ -26,7 +26,7 @@ Constraints:
 - **-2³¹ <= dividend, divisor <= 2³¹ - 1**
 - **divisor != 0**
 # Solution(in C)
-```bash
+```c
 int divide(int dividend, int divisor) {
     // Handle overflow case: INT_MIN / -1 = 2^31, which is out of 32-bit int
     if (dividend == INT_MIN && divisor == -1)

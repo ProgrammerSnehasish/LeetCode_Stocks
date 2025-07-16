@@ -23,7 +23,7 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 - **-2³¹ <= x <= 2³¹ - 1**
 
 # Solution(in C)
-```bash
+```c
 int reverse(int x) {
     int rev = 0;
 

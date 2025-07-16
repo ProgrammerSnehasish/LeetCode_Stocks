@@ -25,7 +25,7 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 - **-2³¹ <= x <= 2³¹ - 1**
 
 ## Solution(in C)
-```bash
+```c
 bool isPalindrome(int x) {
     int temp = x; 
     long reverse = 0;
